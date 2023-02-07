@@ -4,9 +4,176 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>포트폴리오</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js"></script>  <!--jquery cdn이 부트스트랩4에 있으므로 제이쿼리사용을 위해 cdn을 추가할 필요가 없다 -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Cute+Font&family=Hi+Melody&family=Solitreo&display=swap" rel="stylesheet">
+    <script>
+      $(document).ready(function(){       
+        $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 900, function(){
+            window.location.hash = hash;
+            });
+          }
+        });
+      })
+      </script>
+
+    <style>
+      .carousel-caption{bottom:70%;}
+      .container, .contaniner-fluid { margin-top:100px; padding-bottom: 100px;}
+      .container h3,h4, .container-fluid h3,h4{padding-top: 50px;}
+    </style>
 </head>
 <body>
-    KGC의 깃허브 페이지
+    <!-- navigation ------------------------------------------------------------------------------------------------>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+      <a class="navbar-brand" href="#">Protfoilo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#introduce" data-toggle="collapse" data-target=".navbar-collapse.show">자기소개</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#toy" data-toggle="collapse" data-target=".navbar-collapse.show">Toy Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#demo" data-toggle="collapse" data-target=".navbar-collapse.show">Team Project (임시top)</a>
+          </li>    
+        </ul>
+      </div>  
+    </nav>
+    <!-- /navigation -->
+
+    <!-- carousel -------------------------------------------------------------------------------------------------->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/img01.jpg" alt="타이틀 이미지 01">
+            <div class="carousel-caption">
+                <h3>MY Protfoilo</h3>
+                <p>개발 개발 새발 개발 개발 개발</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/img02.jpg" alt="타이틀 이미지 02">
+            <div class="carousel-caption">
+                <h3>MY Protfoilo</h3>
+                <p>개발 개발 개발 새발 개발 개발</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/img03.jpg" alt="타이틀 이미지 03">
+            <div class="carousel-caption">
+                <h3>MY Protfoilo</h3>
+                <p>개발 새발 개발 개발 개발 개발</p>
+              </div>
+          </div>
+        </div>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    <!-- /carosel -->
+
+    <!-- 자기소개 -------------------------------------------------------------------------------------------------->
+    <div id="introduce" class="container-fluid" style="background: #eeeeee">
+        <div class="container text-center">
+            <h1 style="font-family: 'Solitreo', cursive;"><i class="fas fa-question" style="color:rgb(238, 12, 12)"></i> Who I am?</h1>
+            <p>
+                <h4 style="font-family: 'Cute Font', cursive;">하고 싶은 일</h4>
+                <ul style="width:270px; margin: auto;"> <!-- margin: auto; 박스를 수평가운데 정령  -->
+                    <li>나만의 응용프로그램 만들기</li>
+                    <li>나만의 용용프로그램 만들기</li>
+                    <li>나만의 용응프로그램 만들기</li>
+                </ul>
+                <h4>하고 싫은 일</h4>
+                <ul style="width:270px; margin: auto;">
+                    <li>시간때우기야근</li>
+                    <li>조기출근</li>
+                    <li>점심시간근무</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+    <!-- /자기 소개 -->
+
+    <!-- toy project ----------------------------------------------------------------------------------------------->
+    <div id="toy" class="container text-center">
+        <h1 style="font-family: 'Solitreo', cursive;"><i class="fa-solid fa-robot" style="color:rgb(228, 123, 25)"></i> TOY project</h1>        
+        <p>Study하면서 작성한 Toy Project입니다.</p>
+        <div class="row">
+          <div class="col-sm-4">
+            <h4>네이버 섹션 레시피</h4>
+            <p>HTML5, CSS2, Javascript</p>
+            <a href="toy/naver/recipe.html" target="_blank">
+              <img width="100%" height="300px" src="img/pic01.png" alt="네이버 레시피">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <h4>학사관리 데모</h4>
+            <p>Java, Swing, JDBC, 오라클</p> 
+            <a href="https://youtu.be/FXrQBpbAz9E" target="_blank">
+                <img width="100%" height="300px" src="img/pic02.png" alt="학사관리 데모">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <h4>자기소개페이지</h4>
+            <p>처음 만들어본 자기소개페이지, HTML5</p> 
+            <a href="toy/introduce/src/homework01.html" target="_blank">
+              <img width="100%" height="300px" src="img/pic05.png" alt="자기소개">
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <h4>스마트 조인</h4>
+            <p>HTML5, CSS2, Javascript, jquery, ajax</p> 
+            <a href="toy/smart_join/src/smartjoin.html" target="_blank">
+              <img width="100%" height="300px" src="img/pic03.jpg" alt="스마트 조인">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <h4>네이버 회원가입 데모</h4>
+            <p>HTML5, CSS2</p>
+            <a href="toy/naver_join/src/homework02.html" target="_blank">
+                <img width="100%" height="300px" src="img/pic04.png" alt="네이버 회원가입 페이지">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <h4>네이버 섹션 레시피</h4>
+            <p>HTML5, CSS2, Javascript</p>
+            <a href="toy/naver/recipe.html" target="_blank">
+                <img width="100%" height="300px" src="img/pic01.png" alt="네이버 레시피">
+            </a>
+          </div>          
+        </div>
+    </div>
+    <!-- /toy project -->
 </body>
 </html>

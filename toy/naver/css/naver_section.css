@@ -1,0 +1,196 @@
+body {
+	width: 750px;
+	height: 100%;
+	font-size: 12px;
+    line-height: 16px;
+     margin: 0px auto;
+}
+.head {
+	padding: 0px 0px 17px; 
+	height: 17px;
+}
+.head1 {
+	margin-right: 0px; 
+	width: 300px; 
+	text-align: left; 
+}
+.head2 {
+	margin: 0px; 
+	width: 200px; 
+	text-align:right; 
+}
+.navi {
+	clear: both; 
+	height: 50px;
+}
+.mainImg {
+	width: 364px; 
+	height: 180px;
+}
+.iconA {
+	position: relative;
+	z-index: 2; 
+	width: 40px; 
+	height: 40px; 
+	margin: 0px; 
+	overflow: hidden;
+}
+.iconA1 {
+	top: -42px; 
+	left: -24px;
+}
+.iconA2 {
+	top: -82px; 
+	left: 726px;
+}
+.posIconA {
+	position: relative;
+	top: -343px;	
+}
+.posTime {
+	position: relative; 
+	bottom: 60px;
+}
+.iconB {
+	position: relative; 
+	top: -37px; 
+	left: 11px; 
+	z-index: 2; 
+	width: 24px; 
+	height: 28px; 
+	margin: 0px; 
+	overflow: hidden;
+}
+.iconBin {
+	position: relative; 
+	right: 247px; 
+	top: -343px;
+}
+.mov {
+	padding: 18px 0px; 
+	border-bottom: 1px solid #e4e8eb; 
+	height: 308px;
+}
+.categoryUp {
+	position: relative; 
+	top: -47px; 
+	padding: 16px 18px 0px 0px;
+}
+.category {
+	color: #ebaa00;
+	font-weight: 700;
+	display: block;
+}
+.title {
+	margin-top: 6px;
+	display: block;
+}
+.desc {
+	color: #404040;
+	margin-top: 5px;
+	margin-bottom: 4px;
+	max-height: 42px;
+	line-height: 21px;
+	overflow: hidden;
+    -webkit-line-clamp: 2;
+}
+.teg1 {
+	color: #505050;
+	display: inline-block;
+	width: 100%;
+}
+.recipe {
+	padding: 4px 45px 0px 0px;  
+	width: 508px; 
+	height: 107px;
+}
+.item {
+	margin-top: 18px;
+	width: 750px;
+	height: 114px;
+}
+.item_p {
+	width: 170px;
+	height: 114px;
+	margin-right: 21px;
+}
+table, th {
+	width: 12.5%;
+	border: 1px solid #dae1e6;
+	border-collapse : collapse;
+}
+table {
+	width: 100%; 
+	height: 49px;
+}
+.time {
+	color: #fff;
+	line-height: 14px;	
+}
+.runtime {
+	width: 33.5px;
+	height: 20px;
+	z-index: 1;
+	color: transparent;
+	background-color: #000;
+	padding: 3px 6px;
+    border-radius: 2px;
+    opacity: .7;
+}
+.date_be {
+	background-color: grey;
+    display: inline-block;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    margin: 0 5px 0 6px;
+    vertical-align: 3px;
+}
+.bar {
+	display: inline-block;
+	width: 1px;
+    height: 12px;
+    background-color: #e4e8eb; 
+    margin: 0 5px 0 5px;
+}
+/* div {
+	border: 1px solid gray;
+} */
+
+
+.gray1 {
+	color: gray;
+}
+.font13 {
+	font-size: 13px;
+}
+.font14 {
+	font-size: 14px;
+}
+.pad18 {
+	padding: 18px 0px;
+}
+.mgt0 {
+	margin-top: 0px;
+}
+.h305 {
+	height: 305px;
+}
+.floatL {
+	float: left;
+}
+.floatR {
+	float: right;
+}
+.right1 {
+	right: 168px;
+}
+.right2 {
+	right: 85px;
+}
+.right3 {
+	right: -312px;
+}
+.right4 {
+	right: -320px;
+}

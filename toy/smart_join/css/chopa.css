@@ -1,0 +1,119 @@
+.mxw500 {
+	max-width: 500px;	
+}
+.mxw550 {
+	max-width: 550px;	
+}
+.mxw600 {
+	max-width: 600px;	
+}
+.mxw650 {
+	max-width: 650px;	
+}
+.mxw700 {
+	max-width: 700px;	
+}
+.mxw750 {
+	max-width: 750px;	
+}
+.mxw800 {
+	max-width: 800px;	
+}
+
+.inblock {
+	display: inline-block;
+}
+
+/* margin */
+.mgb10 {
+	margin-bottom: 10px;
+}
+.mgb20 {
+	margin-bottom: 20px;
+}
+.mgt10 {
+	margin-top: 10px;
+}
+.mgt20 {
+	margin-top: 20px;
+}
+.mgl10 {
+	margin-left: 10px;
+}
+.mgr10 {
+	margin-right: 10px;
+}
+
+/* padding */
+.pdt10 {
+	padding-top: 10px;	
+}
+.pdb10 {
+	padding-bottom: 10px;	
+}
+.pdl10 {
+	padding-left: 10px;	
+}
+.pdr10 {
+	padding-right: 10px;	
+}
+.pdv20 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+}
+/* 라벨 클래스 */
+.lblpt14 {
+	font-size: 14pt;
+	line-height: 230%;
+}
+
+/* 가로사이즈 */
+.w160 {
+	width: 160px;
+}
+/* 라벨 */
+.label1 {
+	font-size: 14pt;
+	font-weight: bold;
+	line-weight: 230%;
+}
+/* 박스 */
+.box100 {
+	width: 100px;
+	height: 100px;
+}
+.imgbox {
+	width: 78px;
+	height: 78px;
+	overflow: hidden;
+}
+.img1 {
+	width: 78px;
+	height: auto;
+}
+
+label {
+		font-size: 20px;
+		display: block;
+}
+img {
+		width: 80px;
+		height: 80px;
+		border: 1px solid gray;
+}
+.h163 {
+	height: 163px;
+}
+#mans {
+		width: 100px; 
+		height: 100px; 
+		border: 1px solid gray; 
+		padding: 8px;
+}
+#preView {
+	display : none;
+}
+#avaLa, #man, #woman {
+	display : none;
+}

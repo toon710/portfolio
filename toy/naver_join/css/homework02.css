@@ -1,0 +1,77 @@
+body {
+	background-color: #f5f6f7;
+}
+.logoDD {
+	width:240px; 
+	height: 44px; 
+	padding: 60px 0px 20px;
+}
+.logoD {
+	width: 240px; 
+	height: 44px;
+}
+.logo {
+	right: 0px; 
+	top: 0px;
+}
+.inBox {
+	background-color: white; 
+	border: 1px solid #dadada;
+}
+.laFont {
+	font-size: 14px; 
+	font-weight: 700;
+}
+.laD {
+	text-align: left; 
+	margin: 19px 0px 8px;
+}
+.pwicon {
+	position: absolute; 
+	right: 13px; 
+	top: 16px; 
+	width: 24px; 
+	height: 24px;
+}
+.pwin {
+	border: none; 
+	width: 379px; 
+	height: 29px; 
+	padding: 10px 40px 10px 14px;
+}
+
+
+
+.posiR {
+	position: relative;
+}
+.mg0 {
+	margin: 0px auto;
+}
+.w768 {
+	width: 768px;
+}
+.w460 {
+	width: 460px;
+}
+.w100 {
+	width: 100%;
+}
+.h51 {
+	height: 51px;
+}
+.h100 {
+	height: 100%
+}
+.ofH {
+	overflow: hidden;
+}
+.pd1014{
+	padding: 10px 14px 10px 14px;
+}
+.pd1114{
+	padding: 11px 14px 11px 14px;
+}
+.mb14 {
+	margin-bottom: 14px;
+}
